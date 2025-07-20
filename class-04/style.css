@@ -1,0 +1,29 @@
+<!-- universal space -->*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+}
+.socail-icons{
+    display: flex;
+    justify-content: space-between;
+    width: 15%;
+}
+.lawn{
+    display: flex;
+    justify-content: space-between;
+}
+li{
+    list-style: none;
+}
+.socail-icons li{
+    width: 30px;
+    height: 30px;
+    background-color: aquamarine;
+    border-radius: 50px;
+}
+i{
+    font-size: 10px;
+}
