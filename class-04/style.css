@@ -101,47 +101,52 @@ a span {
   text-underline-offset: 170%;
   color: #fbd341;
 }
-.hero {
-  background-color: black;
-  padding-top: 150px;
-  padding-bottom: 150px;
+.image {
+  width: 100%;
+  height: 100vh;
+  background-image: url('./assets/bg_1.jpg.webp');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.color{
+  background-color: rgba(0, 0, 0, 0.397);
+  height: 100vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 6%;
 }
 h2 {
   color: #fbd341;
-  padding: 10px 77px;
+  font-size: medium;
   font-family: sans-serif;
-  font-size: 15px;
 }
-h1 pre {
+h1 {
   color: white;
+  width: 100vh;
   font-family: sans-serif;
   font-size: 60px;
-  padding: 0px 75px;
-  margin-top: 8px;
+  margin-top: 15px;
 }
-.hero h1 {
-  font-weight: 780;
-}
-.hero p {
+.color p {
   color: #b6b6b6;
-  padding: 9px 78px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 19px;
-  margin-bottom: 15px;
+  margin-top: 15px;
 }
-.hero button {
+.color button {
   background-color: #5fa432;
   color: white;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding: 12px 32px;
-  margin-left: 75px;
   border: none;
   border-radius: 3px;
   font-size: 15px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: sans-serif;
+  padding: 15px 32px;
+  margin-top: 20px;
 }
-.hero a {
+.color a {
   text-decoration: none;
 }
